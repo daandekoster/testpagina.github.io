@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="afspraak" content="invoerveld voor tandsartsafspraak">
+    <title>Tandartspraktijk</title>
+  </head>
+  <body>
+    <h1 id="top">Tandartspraktijk</h1> <br> <hr> <br>
+    <ul>
+      <li> <a href="#deel1">Info</a></li>
+      <li> <a href="#deel2">Afspraakformulier</a> </li>
+    </ul>
+    <div id="deel1">
+      <h2>Info</h2>
+      <p>Welkom op de site van tandartspraktijk 'de witte tandenfee'. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus euismod augue. Cras ultricies luctus blandit. Nulla semper dapibus vulputate. Maecenas egestas fermentum nunc, eget accumsan libero. Sed in scelerisque tortor. Mauris venenatis sapien placerat nunc rutrum, sit amet interdum dui euismod. Sed vitae magna nec justo luctus cursus non ut odio. Morbi facilisis quam et finibus fermentum. Sed dictum risus risus, ac blandit lacus porttitor et. Sed malesuada, arcu fringilla finibus consectetur, magna neque aliquam lacus, eu bibendum dui lorem a magna. Ut posuere tristique bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget tellus lobortis, maximus. </p> <br> <br>
+      <h3>Impressie tandartspraktijk:</h3>
+      <figure>
+        <img src="https://via.placeholder.com/300x300" alt="Gebouw" title="Gebouw"> &nbsp;
+        <img src="https://via.placeholder.com/300x300" alt="Praktijkruimte" title="Praktijkruimte"> &nbsp;
+        <img src="https://via.placeholder.com/300x300" alt="Tandarts Bitje" title="Tandarts Bitje">
+        <figcaption>De witte tandenfee</figcaption>
+      </figure> <hr>
+      <a href="#top">Naar boven</a> <br><br><br>
+    </div>
+    <div id="deel2">
+      <h1>Afspraak formulier</h1> <br><br>
+      <form id="contactform" action="https://formspree.io/f/xayverdq" method="post">
+        <fieldset>
+          <legend>Persoonlijke gegevens:</legend> <br>
+          <label for="naam">Naam:</label>
+          <input id="naam" type="text" name="naam" placeholder="voor- en achternaam"> <br><br>
+          <label for="adres">Adres:</label>
+          <input type="text" id="adres" name="adres" placeholder="Straat+nr en postcode"> <br><br>
+          <label for="woonplaats">Woonplaats:</label>
+          <input type="text" id="woonplaats" name="woonplaats"> <br><br>
+          <label for="telefoon">Telefoon:</label>
+          <input type="tel" id="telefoon" name="telefoon"> <br><br>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email"> <br><br>
+        </fieldset> <br><br>
+        <fieldset>
+          <legend>Reden bezoek:</legend> <br>
+          <input type="checkbox" name="kennismaking" value="ja">Kennismaking <br>
+          <input type="checkbox" name="pijnklacht" value="ja">Pijnklachten <br>
+          <input type="checkbox" name="orthodontie" value="ja">Orthodontie <br>
+          <input type="checkbox" name="prothese" value="ja">Prothese <br>
+          <input type="checkbox" name="afgebroken" value="ja">Afgebroken <br> tand/kies <br>
+          <input type="checkbox" name="overig" value="ja">Overig <br>
+          <label for="foto">Voeg eventueel een foto toe:</label>
+          <input type="file" id="foto" name="foto"> <br><br>
+        </fieldset> <br><br>
+        <fieldset>
+          <legend>Toelichting van de klachten:</legend> <br>
+          <textarea name="toelichting" maxlength="1000" placeholder="niet verplicht"></textarea> <br><br>
+          <label for="afspraakdatum">Afspraakdatum:</label>
+          <input type="date" id="afspraakdatum" name="afspraakdatum" max="2025-12-31"> <br><br>
+        </fieldset> <br><br>
+        <button type="submit" name="verzendknop"<strong>verzend</strong> ></button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="reset" value="Wis gegevens">
+        <br><br>
+        <a href="#top">Naar boven</a>
+      </form>
+    </div>
+  </body>
+</html>
